@@ -1,0 +1,48 @@
+#container {
+    /* margin: 50px 100px 0px 100px; */
+}
+
+h1 {
+    text-align: center;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 300;
+}
+
+ol {
+    list-style: inside;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: decimal;
+}
+
+ul {
+    list-style: inside;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: upper-roman;
+}
+
+.lrContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.lrDiv {
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    width: 45%;
+    padding: 10px;
+}
+
+.lastDiv {
+    width: 100%;
+    margin-top: 60%;
+}

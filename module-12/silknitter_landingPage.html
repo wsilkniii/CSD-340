@@ -1,0 +1,89 @@
+<!-- William Silknitter -->
+<!-- Prof. Sampson -->
+<!-- Assignment 12.3: Build a Landing Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link href="silknitter_landingPage.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>William Silknitter</h1>
+    </header>
+    <div id="navbar">
+        <a href="#" class="active">Home</a>
+    </div>
+    <div id="container">
+        <div class="card-title">
+            Hobbies
+        </div>
+        <div class="card-row1">
+            <div class="card">
+                <img src="resources/SadClown.jpg" alt="Clown" style="width:100%">
+                <div class="card-container">
+                  <h4><b>Photography</b></h4>
+                  <p>I'm an amateur when it comes to photography, but I love taking pictures and editing them.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="resources/boarding.jpeg" alt="Skateboard Art: Santa Cruz" style="width:100%">
+                <div class="card-container">
+                  <h4><b>Skateboarding</b></h4>
+                  <p>I've only just recently started skateboarding, but love going outside to practice. I've recenlty landed an ollie (much faster than originally anticipated).</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="resources/firePlace.jpg" alt="Fire Pit" style="width:100%">
+                <div class="card-container">
+                  <h4><b>Camping</b></h4>
+                  <p>As a kid I would always go camping with my family, and now I'm beginning to camp with my friends. I want to travel to many national parks to camp!</p>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="card-title">
+            Experience
+        </div>
+        <div class="card-row2">
+            <div class="card">
+                <img src="resources/coding.jpg" alt="Software Code" style="width:100%">
+                <div class="card-container">
+                  <h4><b>Software Developer Apprentice</b></h4>
+                  <p>In this job I was tasked with creating a library website which utilized HTML/CSS, ReactJS and APIs in order to display books in a clean designed way. I was also given the opportunity to work with the QA team and develop testing skills on various projects.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="resources/support.jpg" alt="IT Support Infographic" style="width:100%">
+                <div class="card-container">
+                  <h4><b>IT Service Desk</b></h4>
+                  <p>This position allowed me to learn the various networks and programs required to make a company run. Troubleshooting various problems, allows me to develop great skills, especially when it comes to solving programming issues.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="resources/coffee.jpg" alt="Latte being poured" style="width:100%">
+                <div class="card-container">
+                  <h4><b>Barista</b></h4>
+                  <p>Although this job does not neccessarily relate to programming or technology, it does emphasize the critical skills of teamwork, organization, and time management. As a barista you need to be able to take an order, while making a coffee, as well as cleaning up your area.</p>
+                </div>
+            </div>
+        </div>
+        <br/>
+    </div>
+
+    <form>      
+        <input name="fName" type="text" class="feedback-input" placeholder="First Name" />   
+        <input name="lName" type="text" class="feedback-input" placeholder="Last Name" />   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT"/>
+    </form>
+
+    <footer>
+        <p id="cpy-right">Copyright 2021 - Silknitter</p>
+        <p id="landpageFoot"><a href="../index.html">Back to Landing Page</a></p>
+    </footer>
+</body>
+</html>
